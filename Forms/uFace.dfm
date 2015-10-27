@@ -1,0 +1,70 @@
+object axFaceForm: TaxFaceForm
+  Left = 0
+  Top = 0
+  BorderIcons = []
+  BorderStyle = bsNone
+  BorderWidth = 1
+  ClientHeight = 288
+  ClientWidth = 458
+  Color = 16384
+  TransparentColorValue = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  Position = poScreenCenter
+  OnCreate = FormCreate
+  PixelsPerInch = 96
+  TextHeight = 13
+  object img1: TImage
+    Left = 0
+    Top = 0
+    Width = 458
+    Height = 288
+    AutoSize = True
+    Transparent = True
+  end
+  object Label1: TLabel
+    Left = 18
+    Top = 262
+    Width = 37
+    Height = 13
+    Caption = 'Label1'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = 8421440
+    Font.Height = -11
+    Font.Name = 'Tahoma'
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object lbl1: TLabel
+    Left = 402
+    Top = 14
+    Width = 37
+    Height = 13
+    Alignment = taRightJustify
+    Caption = 'Label1'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = 8421440
+    Font.Height = -11
+    Font.Name = 'Tahoma'
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object lbl2: TLabel
+    Left = 365
+    Top = 262
+    Width = 74
+    Height = 13
+    Alignment = taRightJustify
+    Caption = #169' 2011-2013'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = 8421440
+    Font.Height = -11
+    Font.Name = 'Tahoma'
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+end

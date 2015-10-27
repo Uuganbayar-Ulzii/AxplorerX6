@@ -1,0 +1,135 @@
+object axStarterForm: TaxStarterForm
+  Left = 0
+  Top = 0
+  AutoSize = True
+  BorderStyle = bsNone
+  BorderWidth = 1
+  ClientHeight = 288
+  ClientWidth = 458
+  Color = 16384
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  Position = poScreenCenter
+  OnCreate = FormCreate
+  PixelsPerInch = 96
+  TextHeight = 13
+  object img1: TImage
+    Left = 0
+    Top = 0
+    Width = 458
+    Height = 288
+    AutoSize = True
+    OnMouseDown = img1MouseDown
+  end
+  object lbl1: TLabel
+    Left = 71
+    Top = 93
+    Width = 94
+    Height = 13
+    Caption = #1041#1199#1088#1090#1075#1101#1083#1080#1081#1085' '#1082#1086#1076':'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = 30444
+    Font.Height = -11
+    Font.Name = 'Tahoma'
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object lbl2: TLabel
+    Left = 71
+    Top = 144
+    Width = 109
+    Height = 13
+    Caption = #1048#1076#1101#1074#1093#1078#1199#1199#1083#1101#1093' '#1082#1086#1076':'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = 30976
+    Font.Height = -11
+    Font.Name = 'Tahoma'
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object lbl3: TLabel
+    Left = 70
+    Top = 213
+    Width = 321
+    Height = 22
+    Alignment = taCenter
+    AutoSize = False
+    Caption = #1058#1091#1088#1096#1080#1083#1090#1099#1085' '#1093#1091#1075#1072#1094#1072#1072
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clRed
+    Font.Height = -11
+    Font.Name = 'Tahoma'
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object Edit_HWID: TcxTextEdit
+    Left = 70
+    Top = 109
+    AutoSize = False
+    ParentFont = False
+    Properties.Alignment.Horz = taCenter
+    Properties.Alignment.Vert = taVCenter
+    Properties.ReadOnly = True
+    Properties.UseLeftAlignmentOnEditing = False
+    Style.BorderColor = 33023
+    Style.BorderStyle = ebsSingle
+    Style.Color = 12320767
+    Style.Font.Charset = DEFAULT_CHARSET
+    Style.Font.Color = clMaroon
+    Style.Font.Height = -13
+    Style.Font.Name = 'Tahoma'
+    Style.Font.Style = [fsBold]
+    Style.IsFontAssigned = True
+    TabOrder = 0
+    Height = 33
+    Width = 321
+  end
+  object Edit_Serial: TcxTextEdit
+    Left = 70
+    Top = 163
+    AutoSize = False
+    ParentFont = False
+    Properties.Alignment.Horz = taCenter
+    Properties.Alignment.Vert = taVCenter
+    Properties.UseLeftAlignmentOnEditing = False
+    Style.BorderColor = 47360
+    Style.BorderStyle = ebsSingle
+    Style.Color = 12713921
+    Style.Font.Charset = DEFAULT_CHARSET
+    Style.Font.Color = 28416
+    Style.Font.Height = -13
+    Style.Font.Name = 'Tahoma'
+    Style.Font.Style = [fsBold]
+    Style.IsFontAssigned = True
+    TabOrder = 1
+    Height = 33
+    Width = 321
+  end
+  object cxbtn2: TcxButton
+    Left = 233
+    Top = 257
+    Width = 58
+    Height = 23
+    Cancel = True
+    Caption = #1043#1072#1088#1072#1093
+    LookAndFeel.Kind = lfOffice11
+    LookAndFeel.NativeStyle = False
+    ModalResult = 2
+    TabOrder = 2
+  end
+  object cxbtn1: TcxButton
+    Left = 168
+    Top = 257
+    Width = 59
+    Height = 23
+    Caption = 'OK'
+    LookAndFeel.Kind = lfOffice11
+    LookAndFeel.NativeStyle = False
+    TabOrder = 3
+    OnClick = cxbtn1Click
+  end
+end
